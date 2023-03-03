@@ -28,6 +28,22 @@
         padding-top: 5%;
     }
     
+    .img-en-card {
+        border-radius: 10%;
+    }
+    
+    .servicios-card {
+        background: linear-gradient(rgba(255, 255, 255, 0.607), rgba(255, 179, 2, 0.42));
+    }
+    
+    .card-fila-uno {
+        animation: moverDerecha 2s ease-in;
+    }
+    
+    .card-fila-dos {
+        animation: moverIzquierda 2s ease-in;
+    }
+    
     @keyframes moverIzquierda {
         0% {
             opacity: 0;
